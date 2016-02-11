@@ -1,0 +1,118 @@
+<style>
+	
+
+.content{
+    height: 400px !important;
+    /*margin: auto !important;*/
+    overflow: hidden !important;
+    width: 780px !important;
+}
+
+.imgholder{
+    height: 400px;
+    margin: auto;
+    width: 780px;
+
+}
+
+.shirt1{
+    opacity: 0;
+            animation: fadeinphoto 7s infinite; /*animation-iteration-count:infinite;*/
+       -moz-animation: fadeinphoto 7s infinite; 
+    -webkit-animation: fadeinphoto 7s infinite; 
+         -o-animation: fadeinphoto 7s infinite; 
+    float: left;
+    position: relative;
+    top: 0px;
+    z-index: 1;
+}
+
+.shirt2 {
+    opacity: 0;
+            animation: fadeinphoto 7s 5s infinite;
+       -moz-animation: fadeinphoto 7s 5s infinite;
+    -webkit-animation: fadeinphoto 7s 5s infinite;
+         -o-animation: fadeinphoto 7s 5s infinite;
+    float: left;
+    position: relative;
+    top: -400px;
+    z-index: 1;
+}
+.shirt3 {
+    opacity:0;
+            animation: fadeinphoto 7s 10s infinite;
+       -moz-animation: fadeinphoto 7s 10s infinite;
+    -webkit-animation: fadeinphoto 7s 10s infinite;
+         -o-animation: fadeinphoto 7s 10s infinite;
+    float: left;
+    position: relative;
+    top: -800px;
+    z-index: 1;
+}
+
+.shirt4 {
+    opacity: 0;
+    animation: fadeinphoto 7s 15s infinite;
+    -moz-animation: fadeinphoto 7s 15s infinite;
+    -webkit-animation: fadeinphoto 7s 15s infinite;
+    -o-animation: fadeinphoto 7s 15s infinite;
+    float: left;
+    position: relative;
+    top: -1200px;
+    z-index: 1;
+border-image-repeat: repeat;}
+
+.shirt5 {
+    opacity: 0;
+            animation: fadeinphoto 7s 20s infinite;
+       -moz-animation: fadeinphoto 7s 20s 1;
+    -webkit-animation: fadeinphoto 7s 20s 1;
+         -o-animation: fadeinphoto 7s 20s 1;
+    float: left;
+    position: relative;
+    top: -1600px;
+    z-index: 1;
+
+}
+
+/* Animation Keyframes*/
+@keyframes fadeinphoto {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+@-moz-keyframes fadeinphoto {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    A100% { opacity: 0; }
+}
+
+@-webkit-keyframes fadeinphoto {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+@-o-keyframes fadeinphoto {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+
+</style>
+
+
+<body>
+ <div class="content">
+                <div class="imgholder">
+                    <img src="https://img1.etsystatic.com/065/0/10147418/il_570xN.766550169_joky.jpg" width="780" height="400" class="shirt1"/>
+                    <img src="https://static.mitchellandness.com/media/catalog/product/cache/1/small_image/180x/9df78eab33525d08d6e5fb8d27136e95/4/2/4279a_vgr_avgrih_3vg_1.jpg" width="780" height="400" class="shirt2"/>
+                    <img src="http://i.ebayimg.com/00/s/MzI2WDQ2MA==/z/Uy8AAMXQVT9SsTgS/$_3.JPG?set_id=2" width="780" height="400" class="shirt3"/>
+                    <img src="https://cdnc.lystit.com/photos/713d-2014/01/08/mitchell-ness-black-the-vancouver-grizzlies-blocked-pass-tee-product-1-12525683-1-224783852-normal.jpeg" width="780" height="400" class="shirt4"/>
+                    <img src="http://sport1946.com/wp-content/uploads/4083_3VG_AVGRIH_1_M-237x237.jpg" width="780" height="400" class="shirt5"/>
+                </div>
+            </div>	
+
+</body>
